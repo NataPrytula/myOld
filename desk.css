@@ -1,0 +1,43 @@
+body {
+    
+    height: 630px;
+    width: 630px;
+    margin: 0px auto;
+}
+div {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+}
+section {
+    float: left;
+
+}
+#a {
+    background-color: black;
+}
+#b {
+    background-color: white;
+}
+#left {
+    float: left;
+    width: 15px;
+    }
+
+#l {
+    height: 15px;
+    text-align: center;
+}
+#let {
+    text-align: center;
+    height: 15px;
+    transform: rotate(180deg);
+    }
+
+#last {
+    width: 15px;
+   }
+#blank {
+    height: 15px;
+    width: 15px;
+}

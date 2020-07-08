@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стати учасником</title>
+    <link rel="stylesheet" href="togo.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Анкета-заявка учасника Театру танцю "Майстерня почуттів"</legend>
+            <Label for="ПІБ"> ПІБ</Label>
+            <input type="text" id="ПІБ" placeholder="Напишіть Прізвище та ім'я дитини" autofocus name="Name"> <br>
+            <label for="Дата народження">Дата народження</label>
+            <input type="date" name="birthday"><br>
+            <label for="Вік">Вік</label>
+            <input type="text" name="old"><br>
+            <hr>
+            <label for="Стать">Стать</label><br>
+            <input type="radio" name="sex" id="girl">Дівчинка<br>
+            <input type="radio" name="sex" id="boy">Хлопчик<br>
+            <hr>
+            <label for="Займалися раніше танцями?">Займалися раніше танцями?</label> <br>
+            <input type="radio" name="dance">так<br>
+            <input type="radio" name="dance">ні<br>
+            <hr>
+            <label for="Записати на:">Записатися на:</label>
+            <select multiple>
+                <option selected>виберіть стиль танцю</option>
+                <option value="hip hop">Хіп Хоп</option>
+                <option value="modern">Модерн</option>
+                <option value="ethnic">Етно</option>
+                <option value="folk">Фольк</option>
+                <option value="classik">Класична хореографія</option>
+                <option value="contemporary">Контемп</option>
+                <option value="estrada">Естрадний танець</option>
+            </select>
+            <hr>
+            <input type="file" name="photo"> <span id="photo"> Завантажити фото учасника </span><br>
+            <label for="Е-MAIL адрасе">E-MAIL адреса</label>
+            <input type="email" name="e-mail" id="e-mail" placeholder="Вкажіть e-mail"> <br>
+            <label for="Дата заповнення анкети">Дата заповнення анкети</label>
+            <input type="date" name="date" id="Дата заповнення"> <br>
+            <hr>         
+               <table>
+            <tr>
+                <td><label for="Додати коментар">Додати Коментар</label>
+                <textarea name="coment" id="" cols="30" rows="10"></textarea></td>
+                <td> <input type="submit" value="SUBMIT" height="10px" width="10px"></td>
+            </tr>
+        </table>
+       
+    </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-color: cadetblue;
+    border: 3px solid black;
+    width: 980px;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+}
+article {
+    text-align: left;
+}
+
+section {
+    padding-top: 0px;
+    
+}
